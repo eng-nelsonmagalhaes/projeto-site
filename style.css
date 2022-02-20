@@ -1,92 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+/*zerando css */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 50;
+    <!--pading: 20;--!>
     box-sizing: border-box;
-    text-decoration: none;
 }
-
-.body
-{
+/*estilizando a tela*/
+html{
+    width: auto;
+    height: auto;
+    font-size: 62.5%;
+    <!--font-family: "lato" sans-serif;--!>
+}
+body{
     background: url(engenharias2.jpg);
-    background-color: aquamarine;
-    font-size: 100%;
-    background: linear-gradient(68.15deg,#2f2325,#8E5D52 85.61%));
-
+    background-position: center center;
+    background-size:cover;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
 }
-.cabeçalho{
-display: flex;
-flex-direction: row;
-align-items: baseline;
-justify-content: space-around;
-padding: 24px;
-
-}
-.cabeçalho-imagem{
-display: flex;
-flex-direction: row;
-align-items: baseline;
-justify-content: space-around;
-padding-inline: ;
-
-}
-.cabeçalho-menu{
-display: flex;
-gap: 32px;
-}
-.cabeçalho-menu-itém{
-    font-family: sarala , sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px;
-
-}
-.conteudo{
-    border-top: 0.4px, solid #FFF2E7;
-}
-.conteudo-principal{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.conteudo-principal-escrito{
+/*estilizanndo menu*/
+header{
     display: flex;
-    flex-direction: column;
-    gap: 32p;
+    <!--background: url(NelsonPB100.jpg);--!>
+    <!--width: 17%;--!>
+    height: 17vh;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items:center;
+    
+    
 }
-.conteudo-principal-escrito-titulo{
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 64px;
-    color: #FFF2E7;
+.foto{
+    padding: 1%;
+    border-radius: 50%;
 }
-.conteudo-principal-escrito-subtitulo{
-    font-family: sarala, sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-    color: #FFF2E7;
-}
-.conteudo-principal-escrito-botao{
-    background-color: #ECD6C4;
-    width: 180px;
-    height: 60px;
-    border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 25);
-    border-radius: 20px;
-    font-family: 'sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: 2F2325;
-}
-.imagem-nelson{
-    height: 230px;
-}
-.rodapé-imagem{
-    height: 230px;
-}
-.conteudo-rodapé-escrito{
-    font-family: sans-serif;
+main{
     font-size: large;
+}
+/*.menu-content{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+
+/*}
+.logo{
+    font-size: 1.8rem;
+}
+.menu-content, .list-items{
+    display: flex ;
+    gap: 30px;
+}*/
+/* desehando os textos conteudo principal*/
+.primary-text{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+shooter{
+    display:inline;
+    flex-direction: row;
+    align-items: flex-end;
+
 }
